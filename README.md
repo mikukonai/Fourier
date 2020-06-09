@@ -19,15 +19,13 @@
 ```
 说明：左箭头“A ← B”读作“A依赖/需要B”。
 
-fft ← complex
-testbench ← complex
 testbench ← fft
 ```
 
 
 ## 权利声明
 
-版权所有 © 2019 Mikukonai@GitHub，保留所有权利。
+版权所有 © 2016-2020 Mikukonai@GitHub，保留所有权利。
 
 采用MIT协议授权。
 
