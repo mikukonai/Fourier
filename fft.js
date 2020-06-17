@@ -12,7 +12,7 @@ function FFT(length) {
     };
 
     if(!(length in this.LOG_2)) {
-        throw '[FFT] 输入序列长度必须是2的幂';
+        throw 'FFT: 输入序列长度必须是2的幂。';
     }
 
     this.length  = length;
