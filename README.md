@@ -4,10 +4,10 @@
 
 - 快速傅里叶变换（FFT）
 - 离散余弦变换（DCT、DCT_2D）
-- 改进的离散余弦变换（MDCT）
 
 未来可能加入的其他变换：
 
+- 改进的离散余弦变换（MDCT）
 - 快速数论变换（Fast NTT）
 - 小波变换
 - 离散正弦变换（DST）
@@ -18,9 +18,7 @@
 ```
 说明：左箭头“A ← B”读作“A依赖/需要B”。
 
-dct ← fft
-testbench ← fft
-testbench ← dct
+testbench.js ← transform.js
 ```
 
 
