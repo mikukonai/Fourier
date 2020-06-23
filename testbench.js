@@ -1,4 +1,4 @@
-const { FFT, DCT, DCT_8_fast, DCT_2D } = require("./fourier.js");
+const { FFT, DCT, DCT_8_fast, IDCT_8_fast, DCT_2D } = require("./fourier.js");
 
 //////////////////////////////////////////////////////////////////
 //  FFT
@@ -24,11 +24,13 @@ console.log(idct_out);
 
 
 //////////////////////////////////////////////////////////////////
-//  DCT_8_fast
+//  DCT_8_fast / IDCT_8_fast
 //////////////////////////////////////////////////////////////////
 
 let dct_8_out = DCT_8_fast([1,2,3,4,5,6,7,8]);
 console.log(dct_8_out);
+let idct_8_out = IDCT_8_fast(dct_8_out);
+console.log(idct_8_out);
 
 
 //////////////////////////////////////////////////////////////////
